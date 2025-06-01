@@ -1,0 +1,90 @@
+2025-05-31 12:34:20,717 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-44' coro=<generate_with_ollama() done, defined at /home/vishal-kumar/Desktop/updated repo/server.py:226> exception=RuntimeError("Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.")>
+Traceback (most recent call last):
+  File "/home/vishal-kumar/Desktop/updated repo/server.py", line 238, in generate_with_ollama
+    async for line in resp.content:
+  File "/home/vishal-kumar/Desktop/updated repo/env/lib/python3.12/site-packages/aiohttp/streams.py", line 52, in __anext__
+    rv = await self.read_func()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishal-kumar/Desktop/updated repo/env/lib/python3.12/site-packages/aiohttp/streams.py", line 352, in readline
+    return await self.readuntil()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishal-kumar/Desktop/updated repo/env/lib/python3.12/site-packages/aiohttp/streams.py", line 386, in readuntil
+    await self._wait("readuntil")
+  File "/home/vishal-kumar/Desktop/updated repo/env/lib/python3.12/site-packages/aiohttp/streams.py", line 347, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vishal-kumar/Desktop/updated repo/server.py", line 254, in generate_with_ollama
+    await websocket.send_json({"type": "stopped"})
+  File "/home/vishal-kumar/Desktop/updated repo/env/lib/python3.12/site-packages/starlette/websockets.py", line 175, in send_json
+    await self.send({"type": "websocket.send", "text": text})
+  File "/home/vishal-kumar/Desktop/updated repo/env/lib/python3.12/site-packages/starlette/websockets.py", line 85, in send
+    await self._send(message)
+  File "/home/vishal-kumar/Desktop/updated repo/env/lib/python3.12/site-packages/starlette/_exception_handler.py", line 39, in sender
+    await send(message)
+  File "/home/vishal-kumar/Desktop/updated repo/env/lib/python3.12/site-packages/uvicorn/protocols/websockets/websockets_impl.py", line 359, in asgi_send
+    raise RuntimeError(msg % message_type)
+RuntimeError: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+2025-06-01 09:11:56,263 [INFO] Database tables created.
+2025-06-01 09:12:15,249 [INFO] User logged in: user2 (uuid: user2-static-uuid)
+2025-06-01 09:12:15,391 [INFO] History appended: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5, role=system
+2025-06-01 09:12:15,393 [INFO] WebSocket connected: session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:12:15,419 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 09:12:15,423 [INFO] History fetched: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:12:22,763 [INFO] History appended: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5, role=user
+2025-06-01 09:12:22,764 [INFO] User message received: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:12:38,753 [INFO] History appended: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5, role=assistant
+2025-06-01 09:12:38,753 [INFO] Model response completed: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:12:38,757 [INFO] History fetched: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:12:38,759 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 09:24:31,983 [INFO] History appended: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5, role=user
+2025-06-01 09:24:31,983 [INFO] User message received: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:25:09,193 [INFO] History appended: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5, role=assistant
+2025-06-01 09:25:09,226 [INFO] Model response completed: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:25:09,233 [INFO] History fetched: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:25:09,239 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 09:25:25,792 [INFO] History fetched: uuid=user2-static-uuid, session_id=e9d9a80f-7d62-4f45-add6-776084f12825
+2025-06-01 09:25:26,869 [INFO] History fetched: uuid=user2-static-uuid, session_id=293a066e-5f7a-4f60-b81d-5bd91bdf55fb
+2025-06-01 09:25:27,752 [INFO] History fetched: uuid=user2-static-uuid, session_id=84e13f93-2f38-46bf-9198-1c04a6dab893
+2025-06-01 09:25:28,558 [INFO] History fetched: uuid=user2-static-uuid, session_id=786ac0e3-8a40-476d-8c3a-e76f20d8a510
+2025-06-01 09:25:29,357 [INFO] History fetched: uuid=user2-static-uuid, session_id=a841273d-ba97-43ad-922d-f8d57c978790
+2025-06-01 09:25:30,106 [INFO] History fetched: uuid=user2-static-uuid, session_id=b8fea5e1-2f9c-4ac0-8564-818075c9bad5
+2025-06-01 09:25:30,816 [INFO] History fetched: uuid=user2-static-uuid, session_id=a54a76ba-21a8-46cd-b657-86b082d137ef
+2025-06-01 09:25:32,574 [INFO] History fetched: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:25:33,414 [INFO] History fetched: uuid=user2-static-uuid, session_id=907b2e96-8e91-4c96-b897-39be31443068
+2025-06-01 09:25:34,178 [INFO] History fetched: uuid=user2-static-uuid, session_id=f177a667-b7d5-4616-b6d0-660f58344161
+2025-06-01 09:25:35,576 [INFO] History fetched: uuid=user2-static-uuid, session_id=907b2e96-8e91-4c96-b897-39be31443068
+2025-06-01 09:25:36,450 [INFO] History fetched: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:25:40,889 [INFO] WebSocket disconnected: session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:25:40,889 [INFO] WebSocketDisconnect: session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 09:25:40,894 [INFO] History appended: uuid=user2-static-uuid, session_id=a7e359a8-404e-4950-95d4-50f8852da342, role=system
+2025-06-01 09:25:40,896 [INFO] WebSocket connected: session_id=a7e359a8-404e-4950-95d4-50f8852da342
+2025-06-01 09:25:40,905 [INFO] History fetched: uuid=user2-static-uuid, session_id=a7e359a8-404e-4950-95d4-50f8852da342
+2025-06-01 09:25:40,913 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 09:25:51,615 [INFO] WebSocket disconnected: session_id=a7e359a8-404e-4950-95d4-50f8852da342
+2025-06-01 09:25:51,616 [INFO] WebSocketDisconnect: session_id=a7e359a8-404e-4950-95d4-50f8852da342
+2025-06-01 10:12:50,263 [INFO] History appended: uuid=user2-static-uuid, session_id=d8d21b02-073e-416d-823a-501f0d5b0e4a, role=system
+2025-06-01 10:12:50,264 [INFO] WebSocket connected: session_id=d8d21b02-073e-416d-823a-501f0d5b0e4a
+2025-06-01 10:12:50,276 [INFO] History fetched: uuid=user2-static-uuid, session_id=d8d21b02-073e-416d-823a-501f0d5b0e4a
+2025-06-01 10:12:50,279 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 10:13:29,696 [INFO] WebSocket disconnected: session_id=d8d21b02-073e-416d-823a-501f0d5b0e4a
+2025-06-01 10:13:29,696 [INFO] WebSocketDisconnect: session_id=d8d21b02-073e-416d-823a-501f0d5b0e4a
+2025-06-01 11:18:52,494 [INFO] Database tables created.
+2025-06-01 11:19:06,766 [INFO] User logged in: user2 (uuid: user2-static-uuid)
+2025-06-01 11:19:06,913 [INFO] History appended: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0, role=system
+2025-06-01 11:19:06,915 [INFO] WebSocket connected: session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 11:19:06,944 [INFO] History fetched: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 11:19:06,946 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 11:19:17,356 [INFO] History appended: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0, role=user
+2025-06-01 11:19:17,357 [INFO] User message received: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 11:19:45,193 [INFO] History appended: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0, role=assistant
+2025-06-01 11:19:45,201 [INFO] Model response completed: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 11:19:45,205 [INFO] History fetched: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 11:19:45,208 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 11:30:26,905 [INFO] WebSocket disconnected: session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 11:30:26,905 [INFO] WebSocketDisconnect: session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 11:30:28,654 [INFO] Database tables created.
