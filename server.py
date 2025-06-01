@@ -271,8 +271,9 @@ async def generate_with_ollama(uuid, session_id, websocket: WebSocket):
         await websocket.send_json({"type": "error", "content": str(e)})
 
 @app.websocket("/api/chat")
-async def websocket_endpoint(websocket: WebSocket, uuid: str = Query(...)):
-    session_id = str(uuid4())
+async def websocket_endpoint(websocket: WebSocket, uuid: str = Query(...), session_id: str = Query(None)):
+    if not session_id:
+        session_id = str(uuid4())
     await ensure_system_message(uuid, session_id)
     try:
         await manager.connect(websocket, session_id)

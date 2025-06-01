@@ -88,3 +88,154 @@ RuntimeError: Unexpected ASGI message 'websocket.send', after sending 'websocket
 2025-06-01 11:30:26,905 [INFO] WebSocket disconnected: session_id=73de735c-ea03-48f5-87d3-e61b330060a0
 2025-06-01 11:30:26,905 [INFO] WebSocketDisconnect: session_id=73de735c-ea03-48f5-87d3-e61b330060a0
 2025-06-01 11:30:28,654 [INFO] Database tables created.
+2025-06-01 12:07:22,520 [INFO] Database tables created.
+2025-06-01 12:07:38,866 [INFO] User logged in: user2 (uuid: user2-static-uuid)
+2025-06-01 12:07:38,995 [INFO] History appended: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b, role=system
+2025-06-01 12:07:38,997 [INFO] WebSocket connected: session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 12:07:39,014 [INFO] History fetched: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 12:07:39,020 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 12:10:50,583 [INFO] History appended: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b, role=user
+2025-06-01 12:10:50,583 [INFO] User message received: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 12:11:06,774 [INFO] History appended: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b, role=assistant
+2025-06-01 12:11:06,784 [INFO] Model response completed: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 12:11:06,791 [INFO] History fetched: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 12:11:06,795 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 12:33:33,602 [INFO] WebSocket disconnected: session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 12:33:33,602 [INFO] WebSocketDisconnect: session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 14:17:04,776 [INFO] Database tables created.
+2025-06-01 14:17:14,557 [INFO] User logged in: user2 (uuid: user2-static-uuid)
+2025-06-01 14:17:14,683 [INFO] History appended: uuid=user2-static-uuid, session_id=fe46c8dc-c358-44d1-9c16-9a2749b5cd5d, role=system
+2025-06-01 14:17:14,685 [INFO] WebSocket connected: session_id=fe46c8dc-c358-44d1-9c16-9a2749b5cd5d
+2025-06-01 14:17:14,706 [INFO] History fetched: uuid=user2-static-uuid, session_id=fe46c8dc-c358-44d1-9c16-9a2749b5cd5d
+2025-06-01 14:17:14,711 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 14:17:18,454 [INFO] WebSocket disconnected: session_id=fe46c8dc-c358-44d1-9c16-9a2749b5cd5d
+2025-06-01 14:17:18,454 [INFO] WebSocketDisconnect: session_id=fe46c8dc-c358-44d1-9c16-9a2749b5cd5d
+2025-06-01 14:32:38,452 [INFO] User logged in: user2 (uuid: user2-static-uuid)
+2025-06-01 14:32:38,569 [INFO] History appended: uuid=user2-static-uuid, session_id=001cbab1-8fb4-4f28-b160-8fd3cbc05ff9, role=system
+2025-06-01 14:32:38,569 [INFO] WebSocket connected: session_id=001cbab1-8fb4-4f28-b160-8fd3cbc05ff9
+2025-06-01 14:32:38,589 [INFO] History fetched: uuid=user2-static-uuid, session_id=001cbab1-8fb4-4f28-b160-8fd3cbc05ff9
+2025-06-01 14:32:38,593 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 14:32:41,776 [INFO] History fetched: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 14:32:45,511 [INFO] WebSocket disconnected: session_id=001cbab1-8fb4-4f28-b160-8fd3cbc05ff9
+2025-06-01 14:32:45,511 [INFO] WebSocketDisconnect: session_id=001cbab1-8fb4-4f28-b160-8fd3cbc05ff9
+2025-06-01 14:32:45,614 [INFO] History appended: uuid=user2-static-uuid, session_id=b758e15e-4d3c-46d9-904c-1b06357c33de, role=system
+2025-06-01 14:32:45,616 [INFO] WebSocket connected: session_id=b758e15e-4d3c-46d9-904c-1b06357c33de
+2025-06-01 14:32:45,631 [INFO] History fetched: uuid=user2-static-uuid, session_id=b758e15e-4d3c-46d9-904c-1b06357c33de
+2025-06-01 14:32:45,636 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 14:32:49,520 [INFO] History fetched: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 14:33:29,361 [INFO] WebSocket disconnected: session_id=b758e15e-4d3c-46d9-904c-1b06357c33de
+2025-06-01 14:33:29,361 [INFO] WebSocketDisconnect: session_id=b758e15e-4d3c-46d9-904c-1b06357c33de
+2025-06-01 14:33:31,344 [INFO] Database tables created.
+2025-06-01 14:33:40,749 [INFO] Database tables created.
+2025-06-01 14:33:56,641 [INFO] Database tables created.
+2025-06-01 14:33:58,316 [INFO] Database tables created.
+2025-06-01 14:34:04,893 [INFO] History appended: uuid=user2-static-uuid, session_id=768d9be4-5711-4559-a2f2-61fd4cdb5e30, role=system
+2025-06-01 14:34:04,895 [INFO] WebSocket connected: session_id=768d9be4-5711-4559-a2f2-61fd4cdb5e30
+2025-06-01 14:34:04,906 [INFO] History fetched: uuid=user2-static-uuid, session_id=768d9be4-5711-4559-a2f2-61fd4cdb5e30
+2025-06-01 14:34:04,913 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 14:34:06,336 [INFO] History fetched: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 14:40:38,085 [INFO] WebSocket disconnected: session_id=768d9be4-5711-4559-a2f2-61fd4cdb5e30
+2025-06-01 14:40:38,085 [INFO] WebSocketDisconnect: session_id=768d9be4-5711-4559-a2f2-61fd4cdb5e30
+2025-06-01 14:40:38,349 [INFO] History appended: uuid=user2-static-uuid, session_id=6d6e4d7c-d631-49c9-a1f3-5ee44c23e24d, role=system
+2025-06-01 14:40:38,352 [INFO] WebSocket connected: session_id=6d6e4d7c-d631-49c9-a1f3-5ee44c23e24d
+2025-06-01 14:40:38,374 [INFO] History fetched: uuid=user2-static-uuid, session_id=6d6e4d7c-d631-49c9-a1f3-5ee44c23e24d
+2025-06-01 14:40:38,378 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 14:40:39,916 [INFO] History fetched: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:40:43,994 [INFO] History fetched: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 14:40:45,094 [INFO] History fetched: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:40:46,226 [INFO] WebSocket disconnected: session_id=6d6e4d7c-d631-49c9-a1f3-5ee44c23e24d
+2025-06-01 14:40:46,226 [INFO] WebSocketDisconnect: session_id=6d6e4d7c-d631-49c9-a1f3-5ee44c23e24d
+2025-06-01 14:40:46,231 [INFO] WebSocket connected: session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:40:46,240 [INFO] History fetched: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:40:46,250 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 14:40:58,573 [INFO] History appended: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0, role=user
+2025-06-01 14:40:58,574 [INFO] User message received: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:41:14,120 [INFO] History appended: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0, role=assistant
+2025-06-01 14:41:14,120 [INFO] Model response completed: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:41:14,125 [INFO] History fetched: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:41:14,129 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 14:41:28,444 [INFO] History fetched: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 14:41:29,505 [INFO] History fetched: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 14:41:30,283 [INFO] History fetched: uuid=user2-static-uuid, session_id=907b2e96-8e91-4c96-b897-39be31443068
+2025-06-01 14:41:30,985 [INFO] History fetched: uuid=user2-static-uuid, session_id=f177a667-b7d5-4616-b6d0-660f58344161
+2025-06-01 14:41:33,313 [INFO] History fetched: uuid=user2-static-uuid, session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:41:34,269 [INFO] History fetched: uuid=user2-static-uuid, session_id=3ac0fb9a-ee75-429f-8a7e-10ab3051c13b
+2025-06-01 14:41:35,027 [INFO] History fetched: uuid=user2-static-uuid, session_id=bf1d6677-dddb-46e8-a161-1768f52357d5
+2025-06-01 14:41:35,687 [INFO] History fetched: uuid=user2-static-uuid, session_id=907b2e96-8e91-4c96-b897-39be31443068
+2025-06-01 14:41:36,376 [INFO] History fetched: uuid=user2-static-uuid, session_id=f177a667-b7d5-4616-b6d0-660f58344161
+2025-06-01 14:41:37,849 [INFO] History fetched: uuid=user2-static-uuid, session_id=f110e6c9-0036-43cf-ac4c-c06b6a4350d6
+2025-06-01 14:41:38,682 [INFO] History fetched: uuid=user2-static-uuid, session_id=676da8ce-fde0-4868-851b-3e9b90dd48b8
+2025-06-01 14:41:39,487 [INFO] History fetched: uuid=user2-static-uuid, session_id=8f26ef49-a112-4db3-bfb3-d795e2f2c69b
+2025-06-01 14:42:48,816 [INFO] WebSocket disconnected: session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 14:42:48,817 [INFO] WebSocketDisconnect: session_id=73de735c-ea03-48f5-87d3-e61b330060a0
+2025-06-01 16:58:51,046 [INFO] Database tables created.
+2025-06-01 16:59:04,331 [INFO] User logged in: user2 (uuid: user2-static-uuid)
+2025-06-01 16:59:04,446 [INFO] History appended: uuid=user2-static-uuid, session_id=5028ef27-91dd-4281-947a-a55bb2407daf, role=system
+2025-06-01 16:59:04,448 [INFO] WebSocket connected: session_id=5028ef27-91dd-4281-947a-a55bb2407daf
+2025-06-01 16:59:04,476 [INFO] History fetched: uuid=user2-static-uuid, session_id=5028ef27-91dd-4281-947a-a55bb2407daf
+2025-06-01 16:59:04,479 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:13,282 [INFO] WebSocket disconnected: session_id=5028ef27-91dd-4281-947a-a55bb2407daf
+2025-06-01 17:10:13,283 [INFO] WebSocketDisconnect: session_id=5028ef27-91dd-4281-947a-a55bb2407daf
+2025-06-01 17:10:13,433 [INFO] History appended: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568, role=system
+2025-06-01 17:10:13,434 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:13,452 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:13,457 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:14,261 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:14,261 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:14,372 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:14,383 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:14,389 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:15,209 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:15,210 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:15,300 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:15,339 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:15,346 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:16,225 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:16,225 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:16,312 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:16,333 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:16,339 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:17,932 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:17,933 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:18,036 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:18,064 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:18,067 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:19,848 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:19,849 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:19,949 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:19,964 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:19,972 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:24,757 [INFO] History appended: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568, role=user
+2025-06-01 17:10:24,757 [INFO] User message received: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:40,009 [INFO] History appended: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568, role=assistant
+2025-06-01 17:10:40,009 [INFO] Model response completed: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:40,013 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:40,017 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:42,467 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:42,467 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:42,582 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:42,597 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:42,601 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:43,568 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:43,568 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:43,660 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:43,677 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:10:43,681 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:10:56,468 [INFO] History appended: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568, role=user
+2025-06-01 17:10:56,468 [INFO] User message received: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:11:00,352 [INFO] History appended: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568, role=assistant
+2025-06-01 17:11:00,352 [INFO] Model response completed: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:11:00,356 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:11:00,359 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:15:55,179 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:15:55,180 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:15:55,333 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:15:55,345 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:15:55,351 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:15:56,066 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:15:56,067 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:15:56,214 [INFO] WebSocket connected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:15:56,226 [INFO] History fetched: uuid=user2-static-uuid, session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:15:56,231 [INFO] History sessions fetched for uuid=user2-static-uuid
+2025-06-01 17:17:12,997 [INFO] WebSocket disconnected: session_id=3392e548-22de-45a6-ae5e-12bc68105568
+2025-06-01 17:17:12,997 [INFO] WebSocketDisconnect: session_id=3392e548-22de-45a6-ae5e-12bc68105568

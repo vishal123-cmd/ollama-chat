@@ -53,7 +53,7 @@
   <script>
     document.getElementById("login-form").addEventListener("submit", async (e) => {
       e.preventDefault();
-      const username = document.getElementById("username").value;
+      const username = document.getElementById("username").value.trim();
       const password = document.getElementById("password").value;
       const resultDiv = document.getElementById("login-result");
       resultDiv.innerText = "";
