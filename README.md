@@ -1,4 +1,3 @@
-# ollama-chat
 
 # Ollama Chat Application
 
@@ -186,4 +185,8 @@ Open your browser and go to:
 - If you change models, make sure to pull them with Ollama before use.
 - For any Python errors, check your virtual environment and dependencies.
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> e70747b (updates)
