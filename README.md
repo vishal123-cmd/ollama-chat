@@ -184,9 +184,3 @@ Open your browser and go to:
 - If you get connection errors, ensure Redis and Ollama are running.
 - If you change models, make sure to pull them with Ollama before use.
 - For any Python errors, check your virtual environment and dependencies.
-
-<<<<<<< HEAD
----
-=======
----
->>>>>>> e70747b (updates)
